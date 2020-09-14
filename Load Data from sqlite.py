@@ -18,17 +18,6 @@ sales_data_df
 # In[3]:
 
 
-get_ipython().run_line_magic('pinfo', 'sales_data_df.read_sql')
-
-
-# In[16]:
-
-
-sql = "select name from sqlite_master""where type = 'table';"
-
-
-# In[ ]:
-
 
 
 
